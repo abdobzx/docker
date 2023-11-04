@@ -177,3 +177,9 @@ docker rm <container_id>
 ```sh
 docker rmi <image_id>
 ```
+
+<p>docker HUB </p>
+```sh
+docker build -t web-site .
+docker tag web-site:latest abdobz/website
+```

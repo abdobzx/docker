@@ -26,7 +26,10 @@ wsl --install -d Ubuntu
 ```
 
 <p>3. put your username and password </p>
-![Screenshot 2023-11-04 113843](https://github.com/abdobzx/docker/assets/61870589/193aab20-136d-4b94-ad7a-b32a832c0950)
+
+![Screenshot 2023-11-04 113843](https://github.com/abdobzx/docker/assets/61870589/6c57657a-5403-40e7-a8e8-6eb61813f8ab)
+
+
 
 <p>4. Changing settings into docker APP and enabling UBUNTU </p>
 

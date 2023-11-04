@@ -94,13 +94,11 @@ docker run -d --name test-website -p 8087:80 test-website
 
 
 <p> it's time to see the results </p>
-</p>
-<p>you can run it with the
+
+you can run it with the localhost:8087 on you browser
 ```sh 
 localhost:8087 
 ```
-on you browser</p>
-
 
 ![Screenshot 2023-11-04 121715](https://github.com/abdobzx/docker/assets/61870589/335299c6-e3a1-4ad5-a09e-e7df265dbc89)
 

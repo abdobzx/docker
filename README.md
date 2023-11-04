@@ -183,3 +183,24 @@ docker rmi <image_id>
 docker build -t web-site .
 docker tag web-site:latest abdobz/website
 ```
+
+<p>docker compose </p>
+
+```sh
+version: '3.8'
+
+services:
+  my_apache_server:
+    image: httpd:latest
+    # Maintainer: abdobzx@gail.com
+    volumes:
+      - ./github:/usr/local/apache2/htdocs
+    ports:
+      - 8087:80 #on docker-compose.yaml 
+
+```
+
+
+```sh
+ docker-compose up
+```
